@@ -1,0 +1,22 @@
+[project]
+name = "doc2md"
+version = "0.1.0"
+description = "Convert documents to markdown."
+authors = [
+  { name = "Ray Thurman", email = "raymond.thurman@xts-inc.com" }
+]
+dependencies = [
+  "markitdown[all]"
+]
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "W", "I"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"

@@ -1,0 +1,20 @@
+*.docx
+*.pdf
+*.ipynb
+*.ipynb_checkpoints
+*.pptx
+*.odt
+# All common python gitignore modules
+/venv
+.env
+.DS_Store
+__pycache__
+.idea
+.vscode
+.vs
+*.egg-info
+build
+output.md
+test.md
+/input
+/output
